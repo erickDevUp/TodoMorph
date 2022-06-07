@@ -1,0 +1,99 @@
+:root
+{
+    --color-dark:#222222;
+    --color-shadow-dark:#111111;
+    --color-ligh-dark:#333333;
+}
+.glasingDark
+{
+    background-color: #0a0a0a10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);        
+}
+.containerDark
+{    
+    background-color: var(--color-dark);    
+}
+.container-child-princiaplDark
+{
+    background: var(--color-dark);
+    box-shadow:  10px 10px 50px var(--color-shadow-dark),
+                 -10px -10px 30px var(--color-ligh-dark);
+    border-radius: 1rem;
+}
+.btn-msDark{
+    border: none;
+    border-radius: 50px;
+    background:var(--color-dark);
+    box-shadow:  6px 6px 20px var(--color-shadow-dark),
+                 -6px -6px 20px var(--color-ligh-dark);
+}
+.btnDark
+{
+    box-shadow: 8px 8px 20px var(--color-shadow-dark),
+    -8px -8px 20px var(--color-ligh-dark);   
+    background-color: var(--color-dark);  
+    border: none;    
+    border-radius: 1rem;
+}
+    .btnDark:active
+    {
+        box-shadow: inset 8px 8px 20px var(--color-shadow-dark), inset 6px 6px 6px 0 var(--color-shadow-dark) ,
+        inset -8px -8px 20px var(--color-ligh-dark),inset -6px -6px 6px 0 var(--color-ligh-dark);  
+    }
+    .btnDark:hover
+    {
+        background-color: var(--color-ligh-dark);
+    }
+
+.img-shadowDark
+{
+    box-shadow: 2px 2px 7px var(--color-shadow-dark), 3px 3px 7px 0 var(--color-shadow-dark) ,
+    -8px -8px 50px var(--color-shadow-dark),-2px -2px 25px 0 #0006;       
+}
+.img-lighDark
+{
+    box-shadow: 2px 2px 7px var(--color-ligh-dark), 3px 3px 7px 0 var(--color-ligh-dark) ,
+    -8px -8px 20px var(--color-ligh-dark),-2px -2px 25px 0 #fff;     
+}
+.img-nmfDark
+{
+    box-shadow: 8px 8px 20px var(--color-shadow-dark), 6px 6px 6px 0 var(--color-shadow-dark) ,
+    -8px -8px 20px var(--color-ligh-dark),-6px -6px 6px 0 var(--color-ligh-dark);   
+}
+
+.input-range-nmfDark
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    padding: 0;
+}
+    .input-range-nmfDark::-webkit-slider-runnable-track
+    {
+        background-color:var(--color-dark);    
+        box-shadow: inset 8px 8px 20px var(--color-shadow-dark), 
+        inset -8px -8px 20px var(--color-ligh-dark);
+         height: 10px;
+        border-radius: 1rem;
+    }
+    .input-range-nmfDark::-moz-range-track
+    {    
+        background-color:var(--color-dark);    
+        box-shadow: inset 8px 8px 20px var(--color-shadow-dark), 
+        inset -8px -8px 20px var(--color-ligh-dark);
+        height: 10px;
+        border-radius: 1rem;
+    }
+
+
+.input-nmfDark
+{
+    border: none;
+    background-color:var(--color-dark);    
+    box-shadow: inset 8px 8px 20px var(--color-shadow-dark), 
+    inset -8px -8px 20px var(--color-ligh-dark);
+    height: 10px;
+    border-radius: 1rem;
+    padding: 2%;
+}

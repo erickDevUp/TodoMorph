@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+.btnAddCreate{
+    margin: auto;
+    width: 200px;
+    height: 5vh; 
+    font-size: 18px;
+}
+.btnAddColumn
+{
+    margin: auto;
+    width: 20%;
+    height: 5vh;
+}
+.btnRefresh
+{
+    min-width: 35px;
+    min-height: 35px;
+}
+.main
+{
+    display: grid;
+    width: 100%;
+    gap: 3%;
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr)) ;
+    grid-auto-flow: dense;
+    padding: 1% 2%;
+    min-height: 100vh;
+    justify-content: space-around;
+}

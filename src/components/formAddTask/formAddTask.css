@@ -1,0 +1,34 @@
+.list
+    {
+        width: 80%;
+        min-height: 15vh;
+        margin: 5% 0;
+        padding: 5%;
+        position: relative;
+    }
+    .form
+    {
+        display: block ;
+    }
+        .nameForm
+        {
+            width: 100%;
+            height: 5vh;
+            padding: 0 5%;
+            font-size: 18px;
+        }
+        .descForm
+        {
+            width: 100%;
+            height: 20vh;
+            font-size: 18px;
+            margin-top: 5%;
+            padding: 5%;
+        }
+        .btnForm
+    {
+        border-radius:1rem;
+        width: 100%;
+        min-height: 3vh;
+        margin-top: 25px;
+    }

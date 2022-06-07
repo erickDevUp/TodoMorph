@@ -1,0 +1,57 @@
+.list
+    {
+        width: 80%;
+        min-height: 15vh;
+        margin: 5% 0;
+        padding: 5% 10%;
+        position: relative;
+        overflow-wrap: break-word;    
+        cursor: default;
+    }
+        .btnDelete
+        {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 5%;
+            height: 3vh;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            color: #a11;
+            font-size: 100%;
+            z-index: 999;
+        }
+        .btnDelete:hover,.btnColunmDelete:hover
+        {
+            font-size: 150%;
+            padding: 4%;
+        }
+        .containerBtnList{
+            margin-top: 10%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+            .btnStep
+            {
+                display: inline-block;
+                width: 45%;
+                height: 4vh;
+                border-radius: 1rem;
+            }
+.list .nameList
+{
+    font-size: 18px;
+    overflow-wrap: normal;  
+    overflow: hidden ;
+    text-overflow: ellipsis ;
+}
+.list .descList{
+    font-size: 18px;
+}
+h4:hover
+{
+  
+    overflow-wrap: break-word;  
+}

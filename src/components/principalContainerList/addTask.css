@@ -1,0 +1,13 @@
+.btnAdd
+    {
+        border-radius:1rem;
+        width: 80%;
+        min-height: 3vh;
+        margin-top: 5%;
+    }
+.btnRefresh
+{
+    width: 30px;
+    height: 30px;
+}
+    
